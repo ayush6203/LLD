@@ -1,0 +1,7 @@
+﻿
+
+# Defination
+
+
+# Implementation Guidelines
+	- Wherever you know that there is tree like structure that could be the case of Composite Design Patter. i.e Object inside Object.

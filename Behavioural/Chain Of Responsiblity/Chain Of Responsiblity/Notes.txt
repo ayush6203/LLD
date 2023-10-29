@@ -1,0 +1,15 @@
+﻿
+# Defination
+	Chain of responsiblity Design pattern says, whenever a sender sends a request and he does not care who will fullfill the request or there is chain of receivers.
+
+	Workflow
+	Sender sends request -> 
+
+	Receiver1 -> Receiver2 -> Receiver3 -> Receiver4 -> Receiver5
+
+	So as you can see all the receivers are chained together. One a request comes, it will be chained with all these receiver,
+	if receiver 1 is not able to return the response it will forward the request to next receivers. so that the can fullfill the requests.
+
+# Use cases
+	- ATM / Vending machine     2000 -> 500 -> 100 -> 50    (check the notes and dispact the notes as per the availablity)
+	- Logger

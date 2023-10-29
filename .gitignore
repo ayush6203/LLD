@@ -1,0 +1,56 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Behavioural/Chain Of Responsiblity/.vs/Chain Of Responsiblity
+/Behavioural/Chain Of Responsiblity/Chain Of Responsiblity/obj
+/Behavioural/Chain Of Responsiblity/Chain Of Responsiblity/bin/Debug/net6.0
+/Behavioural/Command/.vs/Command
+/Behavioural/Command/Command/obj
+/Behavioural/Interpretor/.vs/Interpretor
+/Behavioural/Interpretor/Interpretor/bin/Debug/net6.0
+/Behavioural/Interpretor/Interpretor/obj
+/Behavioural/Iterator/.vs/Iterator
+/Behavioural/Iterator/Iterator/bin/Debug/net6.0
+/Behavioural/Iterator/Iterator/obj
+/Behavioural/Mediator/.vs/Mediator
+/Behavioural/Mediator/Mediator/bin/Debug/net6.0
+/Behavioural/Mediator/Mediator/obj
+/Behavioural/Memento/.vs/Memento
+/Behavioural/Memento/Memento/bin/Debug/net6.0
+/Behavioural/Memento/Memento/obj
+/Creational/AbstractFactory/.vs/AbstractFactory
+/Creational/AbstractFactory/AbstractFactory/obj
+/Creational/Builder/.vs/Builder
+/Creational/Builder/Builder/bin/Debug/net6.0
+/Creational/Builder/Builder/obj
+/Creational/Factory/.vs/Factory
+/Creational/Factory/Factory/bin/Debug/net6.0
+/Creational/Factory/Factory/obj
+/Creational/Prototype/.vs/Prototype
+/Creational/Prototype/Prototype/bin/Debug/net6.0
+/Creational/Prototype/Prototype/obj
+/Creational/Singleton/.vs/Singleton
+/Creational/Singleton/Singleton/obj
+/Structural/Adapter/.vs/Adapter
+/Structural/Adapter/Adapter/obj
+/Structural/Bridge/.vs/Bridge
+/Structural/Bridge/Bridge/bin/Debug/net6.0
+/Structural/Bridge/Bridge/obj
+/Structural/Composite/.vs/Composite
+/Structural/Composite/Composite/bin/Debug/net6.0
+/Structural/Composite/Composite/obj
+/Structural/Decorator/.vs/Decorator
+/Structural/Decorator/Decorator/bin/Debug/net6.0
+/Structural/Decorator/Decorator/obj
+/Structural/Proxy/.vs/Proxy
+/Structural/Proxy/Proxy/bin/Debug/net6.0
+/Structural/Proxy/Proxy/obj
+/Structural/Flyweight/.vs/Flyweight
+/Structural/Flyweight/Flyweight/bin/Debug/net6.0/ref
+/Structural/Flyweight/Flyweight/bin/Debug/net6.0
+/Structural/Flyweight/Flyweight/obj
+/Structural/Facade/.vs/Facade
+/Structural/Facade/Facade/bin/Debug/net6.0
+/Structural/Facade/Facade/obj
+/.vs

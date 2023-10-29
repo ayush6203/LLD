@@ -1,0 +1,9 @@
+﻿
+  # Defination
+    Memento pattern is used to restore the state of the object to the previous state.
+
+  # Implementaiton Guidelines
+    Memento uses three actor classes.
+     Originatior - Create and stores the state in memento object.
+     CareTaker   - Restore the objects from memento.
+     Mementor    - Store the objects to be restored.

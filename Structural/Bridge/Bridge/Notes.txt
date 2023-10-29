@@ -1,0 +1,15 @@
+﻿
+
+# Defination
+	Decouple an abstraction from its implementation so that the two can vary independently.
+	Progressively adding functionality while seperating out major differences using abstract classes.
+
+
+
+	It is similar to Strategy Pattern implementation wise.
+		i.e An abstract class shares it abstraction with an interface & generally maintains Has-A relationship with the interface.
+		    When that abstract class is extended by some concrete class, in that case user can pass the behavious of the interface.
+
+			Coincidently, the implementation is similar to strategy pattern but the intent is different.
+			 Stategy pattern says, user should be able to change the behavious of an object at run time.
+			 Bridge pattern says, abstraction should be decoupled from its abstraction so that two can vary independently.

@@ -1,0 +1,28 @@
+﻿
+
+# Defination
+	Decorator pattern is the nested organization of an object. i.e one object wrapped arround another object.
+	i.e Base Pizza => Baze Pizza + Cheeze => Base Pizza + Cheeze + Jalapino => Base Pizza + Cheeze + Jalapino + Cheeze.
+
+	basically, you can keep on addin extra feature to the object.
+
+
+# Implementation Guidelines
+	- We use Decorator pattern to prevent class explosion.
+	- Generally we have a base object in this pattern which is abstract.
+
+# Important Questions
+	- Design Coffee Machine
+	- Design a program to calculate the cost of pizza having toppings & other stuff.
+
+
+
+
+
+	Summary
+	- Create an abstact base class i.e Base Pizza
+	- Create concrete class & extend base class i.e FarmHouse extends Base Pizza
+	- Now you need to add topping over that, for that you need to use decorator pattern,
+		why decorator here? because we may need to decorate even more topping over the current topping
+		intent is to preserve the nature the object so that it can be considered same even after multiple toppings.
+	- 

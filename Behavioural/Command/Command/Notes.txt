@@ -1,0 +1,19 @@
+﻿
+
+  # Defination
+	Command pattern is used where, we don't have clear understand how many commands there could be in future and we don't know the how much extension is needed.
+
+  # Implementation Guidelines
+    - Generally for every action a command is created.
+	- All this action, implements one common interface having execute method.
+	- These actions implement execute method, and call the methods from Executor class based on the specified action.
+  
+  # Elements of Command Pattern.
+    - Commands			-> TubeLightOnCommand, TubeLightOffCommand (it expects an executed to be passed in the constructor)
+    - Invoker			-> Main method
+	- Controller		-> RemoteController (It takes command from the invoker, and gives it to the executer)  
+	- Executer			-> TubeLight class.
+
+
+	Why use this?
+	it helps application to be closed for modification and open for extension.

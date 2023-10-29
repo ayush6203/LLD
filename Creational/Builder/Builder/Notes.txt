@@ -1,0 +1,20 @@
+﻿
+
+# Defination
+	It is a creational type of pattern, which allows to create an object step by step.
+	ie. If you are creating an object of computer then,
+		CPU & Monitor are must, but lightpen, printer these are optional. 
+	Builder pattern allows to create these object and assign the availble peripherals on the fly.
+
+	so it would look like, 
+		- Create a builder
+		- builder.Add(lightpen);
+		- builder.Add(printer);
+		- builder.build();
+
+		in short, it is similar to StrinBuilder.
+
+
+# Implenentation Guidelines
+	- There are lot of optional properties, (you can't create constructor for all the optional combinations)
+	- Use it when you want to append properties one by one or i say outer objects add inner objects step by step.

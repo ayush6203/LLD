@@ -1,0 +1,18 @@
+﻿
+
+# Defination
+	This Pattern provides the best way to create the Objects. 
+	In Factory patterns we create the object of the Class without Exposing the Creation/Instantiation 
+	Logic to the User who wants to create the Object and then return the newly 
+	Created object using the Common Interface which is inherited  by the Class
+
+
+# Note
+	We see that we pass the information about the object to the VehicleFactory which is sometimes known as 
+	Parametrized Factory VehicleType which gets the parameter of string type from the main class then after that 
+	they check the coming inputs and they create the object and then return to the user.
+
+	This implementation is most easy to create and also useable. 
+	But the problem is that let’s say we want to add Truck class; 
+	so in the VehcileFactory we change the code to add some new Condition which is sometimes a bad situation, 
+	so that’s why we are able to say that “they violate the Open Close Principle.

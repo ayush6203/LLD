@@ -1,0 +1,47 @@
+﻿
+
+# Defination
+	Prototype Design Pattern specify the kind of objects to create using a protypical instance, and create new objects by copying this prototype.
+	In Simple words, instead of creating a new object everytime, copy the existing original object and modify it as per the requirement.
+
+	Prototype is unique among other creational desing patterns as it does not requires a class, it needs an end object.
+
+
+# Implementation Guidelines
+	When to choose this pattern?
+		- Creating an object is expensive operation and it would be lot easier to copy an object.
+		- System is independent of how its products are created, composed & represented.
+		- Objects are required that are similar to existing objects.
+		- Need to hide the complexity of object creation from clients.
+
+	Shallow Copy
+		- Value types properties are copyied to the copied object.
+		- Reference types are kept as the reference.
+
+	Deep Copy
+		- It creates the new instance of inner object also.
+
+
+# Significance of copying
+	The idea of using copy is to create a new object of the same type without knowing the exact type of the object we are invoking.
+	Shallow Copy & Deep Copy plays prominent role in copying the objects in Prototype Design Pattern.
+
+	Creating the required object once and by creating the subsequent required objects by cloning helps reducing the time for creating the objects.
+
+	With prototype desing pattern, based on the requirement situations we can save memory by cloning the objects.
+		i.e - Adapting to the clone an object which consists of many strings(immutable) is good idea than creating an object.
+
+
+# Memberwise Clone Method
+	- The memberwise clone method is a part of system.object and created a shallow copy of the given object.
+	- copies value type bit by bit and reference of the inner object.
+
+# Iclonable Interface
+	- Provides a customizable intervace which helps in customized implementaion of existing object.
+	- This interface contains one member and a clone method which is intended to provide support beyond memberwise clone method.
+
+
+	This pattern gives felxiblity to user whether user should go with 
+		- Deep Copy (when all the property are needed differently even for inner objects)
+		- Shallow Copy (when you want inner object to remain same)
+	

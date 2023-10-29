@@ -1,0 +1,10 @@
+﻿
+
+# Defination
+	It is structural design pattern, in which we write a wrapper/adapter to merge two different/non compatable interfaces.
+
+# Implementatioin Guidelines
+	- Suppose there is one Legacy Code, which needs to be consumed by some new set of code.
+	- This pattern is client focussed pattern, we want client code to be changed very less.
+
+

@@ -1,0 +1,4 @@
+﻿
+	# Defination
+	  Iterator design pattern is basically used in .NET & Jave. It is used to traverse a collection of object in a sequence without knowing the underlying representation.
+

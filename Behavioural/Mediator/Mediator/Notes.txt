@@ -1,0 +1,6 @@
+﻿
+  #Defination
+   This pattern is used to reduce the communication complexity between the multiple objects. This pattern provides the mediator class which generally
+   handles all the communcations between the classes and support easy maintanace of the code by loose coupling.
+
+

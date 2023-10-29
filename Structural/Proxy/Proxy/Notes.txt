@@ -1,0 +1,19 @@
+﻿
+
+# Defination
+	Proxy pattern comes into action when you implement an intermediate object into object call.
+
+	client -> studentObj.CreateStudent();     Normal Call
+	clinet -> studnetProxyObj.CreateStudent();   Proxy Call
+
+# Implementation Guidelines
+	Create a class say student class
+	Create an interface which above class will implement.
+	Now you are good to go, simply call the class but if you need proxy then,
+	Create a proxy concrete class & implement same interface.
+	Override, the methods of the interface in proxy, do some stuff & call the actuall object from inside.
+
+# Use Case
+	If you want to restrict some action
+	If you want to cache
+	If you want to do some pre or post processing.

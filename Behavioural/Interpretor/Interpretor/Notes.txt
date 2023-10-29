@@ -1,0 +1,4 @@
+﻿
+  # Defination
+	Interpretor pattern provides us a way to interpret lanugange or grammer or expression.
+	This pattern involves implementation of IExpression interface which is mostly needed to parse.

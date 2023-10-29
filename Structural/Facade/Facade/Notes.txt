@@ -1,0 +1,18 @@
+﻿
+
+# Defination
+	Facade pattern is nothing but a layer of abstraction over a particular service/api.
+
+# Implementation Guidelines
+	Where ever you need to perform some steps of action from different services, you can consider creating a facade
+	which will perform all the steps one by one.
+
+	it can also be said that adding a layer of abstraction over a service is generally known as facade.
+
+	one more example, suppose there is a library which offers numbers of services, but we need only selected options, what we can do is
+	we can create a facade which will internally use the library and user can easily use the facade.
+
+	i.e Zomato is also like a facade, between a user & resturant.
+
+	User -> Resturant
+	User -> Zomato -> Resturant.

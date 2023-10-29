@@ -1,0 +1,20 @@
+﻿
+
+# Defination
+	Flyweight pattern is one of the structural pattern which works when memory optimization is required.
+	Another name of flyweight object is cached object.
+
+# Implementation Guidelines
+	-If all the objects are having one or more same type of object which takes huge amount of memory.
+	-Take out all the intrinsic data from the object and form a Flyweight Object by using intrinsic data.
+	-The Flyweight class can be immutable.
+	-Extinsic data can be passed to Flyweight object in method parameter.
+	-One flyweight object is created, it is cached in memoery to be used later. Factory can be implemented to fetch the flyweight object.
+
+
+
+
+
+	Example : 
+	You don't need to create the sprite for each & evey object (sprite means the picture or image). i.e one image can be used for humanoid & other for dog and same can be used in all object.
+	In this game example, image gonna be remain same so we will create flyweight object with all the intrinsic properties & cosume that same object in diffrent objects.
